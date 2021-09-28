@@ -19,6 +19,7 @@ public class Converter implements TextGraphicsConverter {
 
     @Override
     public String convert(String url) throws IOException, BadImageSizeException {
+
         BufferedImage img = ImageIO.read(new URL(url));
 
         //проверка на соотношение сторон
@@ -54,8 +55,8 @@ public class Converter implements TextGraphicsConverter {
 
         String result = "";
 
-        for(int w = 0; w < newWidth; w++){
-            for(int h = 0; h < newHeight; h++){
+        for(int h = 0; h < newHeight; h++){
+            for(int w = 0; w < newWidth; w++){
                 int color = bwRaster.getPixel(w, h, new int[3])[0];
                 char c = schema.convert(color);
                 result += c + "" + c;
