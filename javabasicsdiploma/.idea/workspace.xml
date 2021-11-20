@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="064ce224-6bd9-4aa5-8fcb-d4ae4454f74b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="064ce224-6bd9-4aa5-8fcb-d4ae4454f74b" name="Changes" comment="Commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javabasicsdiploma/ru/netology/graphics/server/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javabasicsdiploma/ru/netology/graphics/server/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/netology/graphics/server/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/netology/graphics/server/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,31 @@
       <option name="presentableId" value="Default" />
       <updated>1632590603029</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commited">
+      <created>1632832854651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632832854651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
