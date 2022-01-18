@@ -13,8 +13,21 @@ public class Server {
 
         System.out.println("New connection accepted");
 
+        out.println("Please, write your name: ");
         final String name = in.readLine();
-
         out.println(String.format("Hi %s, your port is %d", name, clientSocket.getPort()));
+
+        out.println("Are you child? (yes/no)");
+        String resp;
+        while(!((resp = in.readLine()).equals("yes") || resp.equals("no"))){
+            out.println("Sorry, I didn't understand your answer.");
+            out.println("Are you child? (yes/no)");
+        }
+        if(resp.equals("yes")){
+            out.println(String.format("Welcome to the kids area, %s! Let's play!", name));
+        }
+        else{
+            out.println(String.format("Welcome to the adult zone, %s! Have a good rest, or a good working day!", name));
+        }
     }
 }
